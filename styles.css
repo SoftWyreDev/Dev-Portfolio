@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@200;300;400;600;700&display=swap');
 
-/* Prevent horizontal scroll globally */
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -17,7 +16,7 @@ html, body {
 
 .contact-value.email a:hover,
 .contact-value.email a:active {
-    color: lightgray; /* example */
+    color: lightgray; 
 }
 
 /* Responsive padding */
@@ -121,6 +120,49 @@ body {
 .round {
     border-radius: 50%;
 }
+
+.subtitle {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1s ease-out forwards;
+  animation-delay: 0.3s
+}
+
+.description {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  animation: fadeSlideInOpaque 1s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes fadeSlideInOpaque {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+    visibility: visible;
+  }
+  100% {
+    opacity: 0.9;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
 
 /* Hero Tiles */
 .hero-tile {
@@ -316,7 +358,7 @@ body {
     }
 }
 
-/* Skills Grid – even rows/horizontal on large screens */
+/* Skills Grid */
 .skills-grid {
     margin-top: 5%;
     display: flex;
@@ -369,11 +411,20 @@ body {
 .skill-description {
     font-size: 0.9rem;
     font-weight: 300;
+    opacity: 0.95;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.skill-tech {
+    font-size: 0.9rem;
+    font-weight: 300;
     opacity: 0.8;
     line-height: 1.3;
 }
 
-/* Contact Grid – even rows/horizontal layout on large screens */
+
+/* Contact Grid */
 .contact-grid {
     margin-top: 5%;
     display: flex;
