@@ -3,6 +3,7 @@
 html, body {
     overflow-x: hidden;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 .email b {
@@ -43,6 +44,74 @@ body {
     color: white;
     line-height: 1.4;
 }
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: linear-gradient(
+    145deg,
+    #2d2d30 0%,
+    #434345 30%,
+    #2d2d30 60%,
+    #3b3b3e 100%
+  );
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  padding: 12px 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  opacity: 1;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.nav-links a:hover {
+    transform: translateY(-4px);
+}
+
+.nav-spacer {
+  height: 60px;
+}
+
+/* Responsive Nav */
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 20px;
+    font-size: 0.9rem;
+  }
+}
+
 
 /* Windows-style Colors (Original Windows 8 Theme Plan)*/ 
 .blue { background: #0078d4; }
@@ -207,10 +276,9 @@ body {
 }
 
 .section-title {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: 200;
-    margin: 0 0 40px 0;
-    padding: 40px 5vw;
+    padding: 30px 5vw;
     background: linear-gradient(
       145deg,
       #2d2d30 0%,
@@ -336,7 +404,7 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 1rem;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .project-link:hover {
@@ -457,6 +525,7 @@ body {
     padding: 0 5vw;
     width: 100%;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .contact-tile {
@@ -588,6 +657,11 @@ body {
 
     .lightboxClose {
         right: 20px;
+    }
+
+    .nav-links {
+        gap: 20px;
+        font-size: 0.9rem;
     }
 }
 

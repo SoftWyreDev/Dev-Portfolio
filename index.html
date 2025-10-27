@@ -6,7 +6,19 @@
     <link rel="stylesheet" href="styles.css">
     <title>Alex Bahler's Developer Portfolio</title>
 </head>
-<body>
+<body id="hero">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Alex Bahler</div>
+            <ul class="nav-links">
+            <li><a href="#hero">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="nav-spacer"></div>
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-grid">
@@ -22,7 +34,7 @@
     </section>
     
     <!-- Featured Projects -->
-    <section class="section">
+    <section class="section" id="projects">
         <div class="section-title">Featured Projects</div>
         
         <div class="featured-projects-grid">
@@ -148,8 +160,8 @@
                 <div class="project-icon">🎮</div>
                 <div class="project-title">2D Side Scrolling Game</div>
                 <div class="project-description">
-                    2D browser game that implements sprite animations, collision detection, score tracking, and particle effects.
-                    Developed to engage players with a challenging and enjoyable experience.
+                    2D desktop browser game featuring sprite animations, collision detection, score tracking, and particle effects.
+                    Developed to engage players through a challenging and enjoyable experience.
                     <span class="credit">
                         Built upon tutorials by 
                         <a href="https://www.youtube.com/playlist?list=PLYElE_rzEw_uryBrrzu2E626MY4zoXvx2"
@@ -180,7 +192,7 @@
         </section>
     
     <!-- Skills -->
-    <section class="section">
+    <section class="section" id="skills">
         <div class="section-title">Skills & Education</div> 
         <div class="skills-grid">
             <div class="skill-tile">
@@ -228,7 +240,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="section">
+    <section class="section" id="contact">
         <div class="section-title">Connect With Me</div>
         
         <div class="contact-grid">
