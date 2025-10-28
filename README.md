@@ -20,4 +20,4 @@ A display of my projects, skills, and contact information all neatly presented f
 HTML • CSS • JavaScript • GitHub Pages (Hosting)  
 
 ## Author
-Alex Bahler (contact [at] alexbahler [dot] com)
+Alex Bahler — contact [at] alexbahler [dot] com
