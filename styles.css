@@ -923,16 +923,16 @@ body {
   }
 
   .contact-label {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .contact-value {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
   }
 
   /* Navbar */
   .nav-links {
-    gap: 10px;
+    gap: 14px;
     font-size: 0.8rem;
   }
 
