@@ -187,6 +187,7 @@ body {
     font-weight: 300;
     opacity: 0.9;
     max-width: 610px;
+    text-wrap: balance;
 }
 
 .me-pic {
