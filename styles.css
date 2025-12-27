@@ -510,13 +510,13 @@ body {
 }
 
 .skill-name {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 .skill-description {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     opacity: 1;
     line-height: 1.3;
@@ -579,15 +579,32 @@ body {
 }
 
 .contact-label {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 .contact-value {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     opacity: 1;
+}
+
+.service-value {
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 1;
+    padding-left: 1.2rem;       
+    margin-top: 0.5rem;          
+    margin-bottom: 0.5rem;       
+    line-height: 1.6;   
+    text-align: left;
+}
+
+.service-value li {
+    margin-bottom: 1rem;       
+    line-height: 1.6;   
+ 
 }
 
 .project-video {
