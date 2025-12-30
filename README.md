@@ -17,7 +17,7 @@ A display of my projects, skills, and contact information all neatly presented f
 - Contact tiles with links to GitHub, LinkedIn, email and my Resume
 
 ## Tech Stack  
-HTML • CSS • JavaScript • GitHub Pages (Hosting)  
+HTML • CSS • JavaScript • Netlify (Hosting)  
 
 ## Author
 Alex Bahler — contact [at] alexbahler [dot] com

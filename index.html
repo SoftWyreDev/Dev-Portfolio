@@ -9,14 +9,24 @@
 <body id="hero">
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo"><img src="logo.png" alt="AB Logo"></div>
+            <div class="nav-logo">
+            <img src="logo.png" alt="AB Logo">
+            </div>
+
             <ul class="nav-links">
-            <li><a href="#hero">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="nav-link" href="#hero">About</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#links">Links</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
+
+            <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div>
         </div>
     </nav>
     <div class="nav-spacer"></div>
@@ -280,7 +290,7 @@
             <div class="service-tile">
                 <div class="contact-icon">🌐</div>
                 <div class="contact-label">Website Development & Design</div>
-                <ul class="service-value">
+                <ul class="service-description">
                     <li>
                         I build modern, reliable custom websites that help businesses get noticed, look professional, and turn visitors into customers.
                     </li>
@@ -296,8 +306,8 @@
                         I redesign and rebuild existing websites to improve usability, conversions, and visitor engagement.
                     </li>              
                     <li>
-                        I implement custom functionality such as contact forms, database integration, user accounts, admin panels,
-                        and backend features make your website more useful and support your goals.
+                        I can implement custom functionality such as contact forms, database integration, user accounts, admin panels,
+                        and backend features that make your website more useful and support your goals.
                     </li>                    
                 </ul>
             </div>
@@ -305,7 +315,7 @@
             <div class="service-tile">
                 <div class="contact-icon">🛠️</div>
                 <div class="contact-label">Hosting & Maintenance</div>
-                <ul class="service-value">
+                <ul class="service-description">
                     <li>
                         I handle deployment of your site to a live, production-ready hosting environment.
                     </li>                    
@@ -329,19 +339,11 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <section class="section" id="contact">
-        <div class="section-title">Connect With Me</div>
+    <!-- Links -->
+    <section class="section" id="links">
+        <div class="section-title">My Links & Info</div>
         
         <div class="contact-grid">
-            <div class="contact-tile">
-                <div class="contact-icon">📧</div>
-                <div class="contact-label">Email</div>
-                <div class="contact-value email">
-                    <a href="mailto:">contact@alexbahler<b>.devportfolio</b>.com</a>
-                </div>
-            </div>
-            
             <a href="https://www.linkedin.com/in/alexander-bahler-b672a4264/" class="contact-tile" target="_blank" rel="noopener noreferrer">
                 <div class="contact-icon">💼</div>
                 <div class="contact-label">LinkedIn</div>
@@ -353,6 +355,14 @@
                 <div class="contact-label">GitHub</div>
                 <div class="contact-value">@SoftWyreDev</div>
             </a>
+
+           <div class="contact-tile">
+                <div class="contact-icon">📧</div>
+                <div class="contact-label">Email</div>
+                <div class="contact-value email">
+                    <a href="mailto:">contact@alexbahler<b>.devportfolio</b>.com</a>
+                </div>
+            </div>            
             
             <a href="Alex-Bahler-Resume.pdf" class="contact-tile" target="_blank" rel="noopener noreferrer">
                 <div class="contact-icon">📄</div>
@@ -360,6 +370,29 @@
                 <div class="contact-value">View</div>
             </a>
         </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+            <div class="section-title">Contact Me</div>      
+            <div class="contact-grid">
+                <div class="form-tile">
+                    <form id="form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="84655097-9512-418d-a2f1-2f95c83c9a50">
+                        <input type="text" name="website" tabindex="-1" autocomplete="off" style="display:none">
+                        <input type="hidden" name="source" value="Personal Developer Website">
+                        <input type="hidden" name="subject" value="New Website Work Inquiry">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Your full name" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" placeholder="name@example.com" required>
+                        <label for="message">What would you like to build or get worked on?</label>
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                        <small>I will respond to the email you provide as promptly as possible.</small>
+                        <button type="submit" name="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
     </section>
 
     <footer class="site-footer">
