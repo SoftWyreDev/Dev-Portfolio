@@ -1013,7 +1013,7 @@ body {
   background: #1e1e1e;
   transition: 0.3s;
   box-shadow: -10px 0 30px rgba(0,0,0,0.15);
-  height: 60vh;
+  height: 75vh;
   padding-top: 32px;
   border-radius: 10px;
   text-align: center;
@@ -1166,7 +1166,6 @@ body {
   /* Navbar */
   .nav-links {
     font-size: 0.8rem;
-    height: 57vh;
     top: 68px;
   }
 
