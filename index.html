@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://alexbahler.com/#localbusiness",
+    "name": "Alex Bahler Web Development",
+    "url": "https://alexbahler.com",
+    "image": "https://alexbahler.com/media/preview.png",
+    "description": "Web development & design services in Santa Cruz, CA",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Santa Cruz",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+    },
+    "sameAs": [
+        "https://www.linkedin.com/in/alexbahler",
+        "https://github.com/alexbahler"
+    ],
+    "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+        "@type": "Service",
+        "name": "Custom Website Development and Design",
+        "areaServed": {
+            "@type": "Place",
+            "name": "Santa Cruz, CA"
+        }
+        }
+    }
+    }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta property="og:title" content="Web Development & Design in Santa Cruz, CA | Alex Bahler">
+    <meta property="og:description" content="Alex Bahler — Web developer and designer in Santa Cruz, CA creating custom websites and software solutions for businesses and individuals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexbahler.com">
+    <meta property="og:image" content="https://alexbahler.com/media/preview.png">
+
     <title>Web Development & Design in Santa Cruz, CA | Alex Bahler</title>
+    <meta name="description" content="Alex Bahler — Web developer and designer in Santa Cruz, CA creating custom websites and software solutions for businesses and individuals.">
+
+    <link rel="canonical" href="https://alexbahler.com">
+    <meta name="author" content="Alex Bahler">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMZ76WJZRV"></script>
@@ -49,23 +92,21 @@
     <section class="hero">
         <div class="hero-grid">
             <div class="hero-main">
-                <img src="/media/me.jpg" alt="Me" width="300" border-radius="10px" class="me-pic">
+                <img src="/media/me.jpg" alt="Picture of Alex Bahler" width="300" border-radius="10px" class="me-pic">
                 <h1><b>Alex Bahler</b></h1>
-                <div class="subtitle"><b>Web Developer & Designer</b></div>
-                <div class="description">I create custom websites and software solutions for businesses and individuals, bringing your ideas to life with care.
+                <h2 class="subtitle"><b>Web Developer & Designer</b></h2>
+                <p class="description">I create custom websites and software solutions for businesses and individuals, bringing your ideas to life with care.
                     I'm dedicated to delivering reliable and efficient results that are built around your goals.
-                </div>
+                </p>
             </div> 
         </div>
     </section>
     
     <!-- Featured Projects -->
     <section class="section" id="projects">
-        <div class="section-title">Featured Projects</div>
+        <h2 class="section-title">Featured Projects</h2>
         
-        <div class="featured-projects-grid">
-           
-            
+        <div class="featured-projects-grid">      
             <div class="featured-project project-side">
             <div class="project-content">
                 <div class="project-info">
@@ -252,7 +293,7 @@
     
     <!-- Skills -->
     <section class="section" id="skills">
-        <div class="section-title">Skills & Education</div> 
+        <h2 class="section-title">Skills & Education</h2> 
         <div class="skills-grid">
             <div class="skill-tile">
                 <div class="skill-icon">⚛️</div>
@@ -300,7 +341,7 @@
 
     <!-- Services -->
     <section class="section" id="services">
-        <div class="section-title">Services</div>    
+        <h2 class="section-title">Services</h2>    
         <div class="contact-grid">
             <div class="service-tile">
                 <div class="contact-icon">🌐</div>
@@ -356,7 +397,7 @@
 
     <!-- Links -->
     <section class="section" id="links">
-        <div class="section-title">My Links & Info</div>
+        <h2 class="section-title">My Links & Info</h2>
         
         <div class="contact-grid">
             <a href="https://www.linkedin.com/in/alexander-bahler-b672a4264/" class="contact-tile" target="_blank" rel="noopener noreferrer">
@@ -389,7 +430,7 @@
 
     <!-- Contact -->
     <section class="section" id="contact">
-            <div class="section-title">Contact Me</div>      
+            <h2 class="section-title">Contact Me</h2>      
             <div class="contact-grid">
                 <div class="form-tile">
                     <form id="form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
