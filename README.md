@@ -1,10 +1,10 @@
 # Alex Bahler's Developer Portfolio
 
-My personal developer portfolio showcasing websites and custom solutions for businesses and clients.
+My personal developer portfolio showcasing websites, services and custom solutions for businesses and clients.
 
 ## Description  
 
-A display of my projects, skills, and contact information all neatly presented for visitors.
+A display of my projects, skills, services, and contact information all neatly presented for visitors.
 
 ## [Visit Here](https://alexbahler.com)
 
@@ -15,6 +15,8 @@ A display of my projects, skills, and contact information all neatly presented f
 - Skill tiles with a description and technologies/practices
 - Education tile with degree, school, and graduation date 
 - Contact tiles with links to GitHub, LinkedIn, email and my Resume
+- Services tiles with descriptions
+- Contact form to email me
 
 ## Tech Stack  
 HTML • CSS • JavaScript • Netlify (Hosting)  
