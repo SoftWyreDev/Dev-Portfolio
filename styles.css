@@ -515,8 +515,8 @@ body {
     margin-bottom: 10px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;   
-    line-clamp: 2;
+    -webkit-line-clamp: 4;   
+    line-clamp: 4;
     overflow: hidden;
     min-height: calc(1.3em * 2); 
 }
