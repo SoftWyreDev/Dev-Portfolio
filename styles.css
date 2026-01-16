@@ -1288,6 +1288,7 @@ body.privacy-page .site-footer {
 }
 
 @media (hover: none) {
+  .featured-project:hover,
   .nav-links a:hover,
   .project-link:hover,
   .tech-pill:hover,
