@@ -513,6 +513,12 @@ body {
     opacity: 1;
     line-height: 1.3;
     margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;   
+    line-clamp: 2;
+    overflow: hidden;
+    min-height: calc(1.3em * 2); 
 }
 
 .skill-tech {
@@ -1285,7 +1291,18 @@ body.privacy-page .site-footer {
   .nav-links a:hover,
   .project-link:hover,
   .tech-pill:hover,
-  .contact-tile:hover {
+  .contact-tile:hover,
+  .skill-tile:hover {
     transform: none;
+  }
+}
+
+/* Large Screens */
+@media screen and (min-width: 1921px) {
+  .skills-grid,
+  .contact-grid {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
