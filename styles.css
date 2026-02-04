@@ -1909,3 +1909,9 @@ body.privacy-page .site-footer {
   z-index: -100;
   background: radial-gradient(ellipse at bottom, #252a31 0%, #1e1e1e 100%);
 }
+
+#object1, #object1:after,
+#object2, #object2:after,
+#object3, #object3:after {
+  border-radius: 50%;
+}
