@@ -10,6 +10,10 @@ html, body {
     display: none;
 }
 
+.email a {
+  text-decoration: none;
+}
+
 .contact-value.email a:link,
 .contact-value.email a:visited {
     color: white;
@@ -832,6 +836,14 @@ body {
   background-clip: text;
   animation: fadeInDown 0.6s ease;
   margin-top: 0;
+}
+
+.privacy-header {
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .privacy-box {
