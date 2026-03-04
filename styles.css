@@ -843,7 +843,21 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: all 0.3s ease;
+}
+
+.email a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: all 0.3s ease;
+}
+
+.email a:hover, a:hover {
+  filter: opacity(0.8);
 }
 
 .privacy-box {
@@ -860,7 +874,6 @@ a {
 
 .privacy-box a {
     color: white;
-    font-weight: bold;
 }
 
 .privacy-tile {
