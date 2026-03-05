@@ -668,7 +668,8 @@ body {
 .project-link-inline {
   color: var(--primary-light);
   text-decoration: underline;
-  font-weight: 600;
+  text-decoration-thickness: 0.1px;
+  text-underline-offset: 1px;
   transition: color 0.3s ease;
 }
 
