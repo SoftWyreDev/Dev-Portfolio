@@ -857,10 +857,6 @@ a {
   transition: all 0.3s ease;
 }
 
-.email a:hover, a:hover {
-  filter: opacity(0.8);
-}
-
 .privacy-box {
     background-color: var(--primary-dark); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
